@@ -1,0 +1,377 @@
+06 Nov 08:57:58 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+06 Nov 08:57:58 WARN   [geoserver.logging] - The logging location can be set using GEOSERVER_LOG_LOCATION property
+06 Nov 08:58:02 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+06 Nov 08:58:03 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/mnt/d/MAESTRIA_SIG/WEB_SITES/curso-sig/tools/geoserver/data_dir/gwc'.
+06 Nov 08:58:03 CONFIG [gwc.config] - Create configuration file 'gwc/geowebcache.xml' from template jar:file:/mnt/d/MAESTRIA_SIG/WEB_SITES/curso-sig/tools/geoserver/webapps/geoserver/WEB-INF/lib/gwc-core-2.0.2.jar!/geowebcache_empty.xml
+06 Nov 08:58:03 CONFIG [config.XMLConfiguration] - Updating configuration to 2.0.0
+06 Nov 08:58:04 CONFIG [geoserver.config] - Loading catalog /mnt/d/MAESTRIA_SIG/WEB_SITES/curso-sig/tools/geoserver/data_dir
+06 Nov 08:58:04 CONFIG [config.datadir] - Catalog and configuration loader uses 8 threads out of 8 available cores.
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style burg (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style capitals (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style cite_lakes (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style dem (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style generic (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style giant_polygon (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style grass (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style green (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style line (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style poi (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style point (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style polygon (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style poly_landmarks (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style pophatch (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style population (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style rain (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style raster (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style restricted (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style simple_roads (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style simple_streams (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style tiger_roads (parent=global)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded workspace tiger
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded workspace ne
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded workspace sf
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded workspace nurc
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded workspace topp
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded namespace sf
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded namespace nurc
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded namespace tiger
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded namespace ne
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded namespace topp
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style boundary_lines (parent=ne)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded data store nyc (parent=tiger)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded data store states_shapefile (parent=topp)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded coverage store mosaic (parent=nurc)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded coverage store sfdem (parent=sf)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style coastline (parent=ne)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded data store sf (parent=sf)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded coverage store img_sample2 (parent=nurc)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded style countries (parent=ne)
+06 Nov 08:58:04 CONFIG [config.datadir] - Loaded data store taz_shapes (parent=topp)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded style countries_mapcolor9 (parent=ne)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded style disputed (parent=ne)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded style populated_places (parent=ne)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded data store NaturalEarth (parent=ne)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type states, enabled (parent=topp/states_shapefile)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type poly_landmarks, enabled (parent=tiger/nyc)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type countries, enabled (parent=ne/NaturalEarth)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type tasmania_state_boundaries, enabled (parent=topp/taz_shapes)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded coverage mosaic, enabled (parent=nurc/mosaic)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer mosaic (parent=nurc:mosaic)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer states (parent=topp:states)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer poly_landmarks (parent=tiger:poly_landmarks)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer tasmania_state_boundaries (parent=topp:tasmania_state_boundaries)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer countries (parent=ne:countries)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded coverage store worldImageSample (parent=nurc)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type tasmania_water_bodies, enabled (parent=topp/taz_shapes)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type tasmania_roads, enabled (parent=topp/taz_shapes)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer tasmania_water_bodies (parent=topp:tasmania_water_bodies)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer tasmania_roads (parent=topp:tasmania_roads)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type tiger_roads, enabled (parent=tiger/nyc)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type populated_places, enabled (parent=ne/NaturalEarth)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer populated_places (parent=ne:populated_places)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer tiger_roads (parent=tiger:tiger_roads)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded coverage Img_Sample, enabled (parent=nurc/worldImageSample)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer Img_Sample (parent=nurc:Img_Sample)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type tasmania_cities, enabled (parent=topp/taz_shapes)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer tasmania_cities (parent=topp:tasmania_cities)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type disputed_areas, enabled (parent=ne/NaturalEarth)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded coverage store arcGridSample (parent=nurc)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer disputed_areas (parent=ne:disputed_areas)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type poi, enabled (parent=tiger/nyc)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer poi (parent=tiger:poi)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type coastlines, enabled (parent=ne/NaturalEarth)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded coverage Arc_Sample, enabled (parent=nurc/arcGridSample)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer coastlines (parent=ne:coastlines)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer Arc_Sample (parent=nurc:Arc_Sample)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type giant_polygon, enabled (parent=tiger/nyc)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer giant_polygon (parent=tiger:giant_polygon)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type boundary_lines, enabled (parent=ne/NaturalEarth)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer boundary_lines (parent=ne:boundary_lines)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type streams, enabled (parent=sf/sf)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type restricted, enabled (parent=sf/sf)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type bugsites, enabled (parent=sf/sf)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer streams (parent=sf:streams)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer restricted (parent=sf:restricted)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer bugsites (parent=sf:bugsites)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded coverage sfdem, enabled (parent=sf/sfdem)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type archsites, enabled (parent=sf/sf)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded feature type roads, enabled (parent=sf/sf)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer archsites (parent=sf:archsites)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer sfdem (parent=sf:sfdem)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer roads (parent=sf:roads)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded coverage Pk50095, enabled (parent=nurc/img_sample2)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer Pk50095 (parent=nurc:Pk50095)
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer group world
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer group tiger-ny
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer group spearfish
+06 Nov 08:58:05 CONFIG [config.datadir] - Loaded layer group tasmania
+06 Nov 08:58:05 INFO   [geoserver.config] - Read Catalog in 961.3 ms : workspaces: 5, namespaces: 5, styles: 27, stores: 10, resources: 24, layers: 24, layer groups: 4.
+06 Nov 08:58:05 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+06 Nov 08:58:05 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+06 Nov 08:58:05 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+06 Nov 08:58:05 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+06 Nov 08:58:05 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+06 Nov 08:58:05 CONFIG [gwc.layer] - Loaded 0 tile layers in 1.662 ms
+06 Nov 08:58:05 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+06 Nov 08:58:05 CONFIG [storage.DefaultStorageFinder] - Found system environment variable GEOSERVER_DATA_DIR set to /mnt/d/MAESTRIA_SIG/WEB_SITES/curso-sig/tools/geoserver/data_dir, using it as the default prefix.
+06 Nov 08:58:05 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+06 Nov 08:58:05 WARN   [gwc.config] - Error loading GWC GeoServer specific configuration from gwc-gs.xml. Applying defaults.
+java.lang.IllegalStateException: File not found /mnt/d/MAESTRIA_SIG/WEB_SITES/curso-sig/tools/geoserver/data_dir/gwc-gs.xml
+	at org.geoserver.platform.resource.FileSystemResourceStore$FileSystemResource.in(FileSystemResourceStore.java:204)
+	at org.geoserver.gwc.config.GWCConfigPersister.loadConfig(GWCConfigPersister.java:73)
+	at org.geoserver.gwc.config.GWCConfigPersister.getConfig(GWCConfigPersister.java:58)
+	at org.geoserver.gwc.seed.SeederThreadLocalTransferExecutor.<init>(SeederThreadLocalTransferExecutor.java:33)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	... suppressed 2 lines
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:207)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:129)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:391)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:124)
+	at org.geoserver.platform.GeoServerContextLoaderListener.contextInitialized(GeoServerContextLoaderListener.java:22)
+	at org.eclipse.jetty.ee11.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:1619)
+	at org.eclipse.jetty.ee11.servlet.ServletContextHandler.contextInitialized(ServletContextHandler.java:500)
+	at org.eclipse.jetty.ee11.servlet.ServletHandler.initialize(ServletHandler.java:677)
+	at org.eclipse.jetty.ee11.servlet.ServletContextHandler.startContext(ServletContextHandler.java:1353)
+	at org.eclipse.jetty.ee11.webapp.WebAppContext.startWebapp(WebAppContext.java:1329)
+	at org.eclipse.jetty.ee11.webapp.WebAppContext.startContext(WebAppContext.java:1288)
+	at org.eclipse.jetty.ee11.servlet.ServletContextHandler.lambda$doStart$0(ServletContextHandler.java:1072)
+	at org.eclipse.jetty.server.handler.ContextHandler$ScopedContext.call(ContextHandler.java:1665)
+	at org.eclipse.jetty.ee11.servlet.ServletContextHandler.doStart(ServletContextHandler.java:1069)
+	at org.eclipse.jetty.ee11.webapp.WebAppContext.doStart(WebAppContext.java:507)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:92)
+	at org.eclipse.jetty.deploy.StandardDeployer.deploy(StandardDeployer.java:118)
+	at org.eclipse.jetty.deploy.DeploymentScanner.performActions(DeploymentScanner.java:885)
+	at org.eclipse.jetty.deploy.DeploymentScanner.pathsChanged(DeploymentScanner.java:612)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:918)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:817)
+	at org.eclipse.jetty.util.Scanner.startScanning(Scanner.java:706)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:678)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:92)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:170)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:121)
+	at org.eclipse.jetty.deploy.DeploymentScanner.doStart(DeploymentScanner.java:759)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:92)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:170)
+	at org.eclipse.jetty.server.Server.start(Server.java:689)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:121)
+	at org.eclipse.jetty.server.Handler$Abstract.doStart(Handler.java:545)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:630)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:92)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:2134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	...
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:312)
+	at org.eclipse.jetty.start.Main.start(Main.java:603)
+	at org.eclipse.jetty.start.Main.main(Main.java:82)
+06 Nov 08:58:05 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+06 Nov 08:58:05 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+06 Nov 08:58:06 WARN   [codec.ImageEncoderImpl] - Preferred SPI not found, using the first available one: com.sun.imageio.plugins.tiff.TIFFImageWriterSpi
+06 Nov 08:58:06 CONFIG [config.datadir] - Loading GeoServer config...
+06 Nov 08:58:06 CONFIG [config.datadir] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+06 Nov 08:58:06 CONFIG [config.datadir] - Loaded service 'wcs', enabled
+06 Nov 08:58:06 CONFIG [config.datadir] - Loaded service 'wfs', enabled
+06 Nov 08:58:06 CONFIG [config.datadir] - Loaded service 'wms', enabled
+06 Nov 08:58:06 CONFIG [config.datadir] - Catalog and configuration loader uses 8 threads out of 8 available cores.
+06 Nov 08:58:06 CONFIG [config.datadir] - Loading workspace services and settings...
+06 Nov 08:58:06 CONFIG [config.datadir] - Loaded service 'WMTSInfoImpl-1c443fee:182c0f3f209:-7f98', enabled
+06 Nov 08:58:06 CONFIG [config.datadir] - Loaded service 'WCSInfoImpl-1c443fee:182c0f3f209:-7f96', enabled
+06 Nov 08:58:06 CONFIG [config.datadir] - Loaded service 'WFSInfoImpl-1c443fee:182c0f3f209:-7f97', enabled
+06 Nov 08:58:06 CONFIG [config.datadir] - Loaded service 'WMSInfoImpl-1c443fee:182c0f3f209:-7f99', enabled
+06 Nov 08:58:06 CONFIG [config.datadir] - GeoServer config (settings and services) loaded in 185.7 ms
+06 Nov 08:58:06 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+06 Nov 08:58:09 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/mnt/d/MAESTRIA_SIG/WEB_SITES/curso-sig/tools/geoserver/data_dir/gwc'.
+06 Nov 08:58:09 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/mnt/d/MAESTRIA_SIG/WEB_SITES/curso-sig/tools/geoserver/data_dir/gwc'.
+06 Nov 08:58:09 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+06 Nov 08:58:10 CONFIG [platform.resource] - Notifying ENTRY_CREATE change on /mnt/d/MAESTRIA_SIG/WEB_SITES/curso-sig/tools/geoserver/data_dir/gwc-layers. Created: 28, removed: 0, modified: 0
+06 Nov 08:58:11 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+06 Nov 08:58:11 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+06 Nov 08:58:12 INFO   [rest.security] - Authentication provider allow-list active from defaults: 12 entries (12 exact, 0 prefix)
+06 Nov 08:58:12 INFO   [rest.security] - Authentication provider allow-list entries: [org.geoserver.security.ldap.LDAPAuthenticationProvider, org.geoserver.security.auth.UsernamePasswordAuthenticationProvider, org.geoserver.geoserver.authentication.auth.GeoFenceAuthenticationProviderConfig, org.geoserver.security.config.UsernamePasswordAuthenticationProviderConfig, org.geoserver.security.auth.web.WebAuthenticationConfig, org.geoserver.security.WebServiceBodyResponseSecurityProviderConfig, org.geoserver.security.ldap.LDAPSecurityServiceConfig, org.geoserver.security.jdbc.config.JDBCConnectAuthProviderConfig, org.geoserver.security.jdbc.JDBCConnectAuthProvider, org.geoserver.geoserver.authentication.auth.GeoFenceAuthenticationProvider, org.geoserver.security.WebServiceBodyResponseSecurityProvider, org.geoserver.security.auth.web.WebServiceAuthenticationProvider]
+06 Nov 08:58:15 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+06 Nov 08:58:15 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+06 Nov 08:58:15 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+06 Nov 08:58:15 CONFIG [diskquota.DiskQuotaMonitor] - 28 layers attached to global quota 500.0 MB
+06 Nov 08:58:15 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+06 Nov 08:58:15 CONFIG [geoserver.security] - Start security migration from version 2.1 to 2.6
+06 Nov 08:58:16 INFO   [geoserver.security] - Strong cryptography is available
+06 Nov 08:58:17 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+06 Nov 08:58:17 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+06 Nov 08:58:17 INFO   [geoserver.security] - Start encrypting configuration passwords using pbePasswordEncoder
+06 Nov 08:58:17 INFO   [geoserver.security] - End encrypting configuration passwords
+06 Nov 08:58:17 CONFIG [geoserver.security] - End security migration check, current version is 2.6 (previous was 2.1)
+06 Nov 08:58:18 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+06 Nov 08:58:18 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+06 Nov 10:34:27 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+06 Nov 10:34:28 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+06 Nov 10:34:28 CONFIG [gwc.layer] - Loaded 28 tile layers in 336.8 ms
+06 Nov 10:34:28 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+06 Nov 10:34:28 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+06 Nov 10:34:28 CONFIG [gwc.layer] - Loaded 28 tile layers in 62.46 ms
+06 Nov 10:34:28 INFO   [geoserver.logging] - Beginning GeoServer cleanup sequence
+06 Nov 15:54:49 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+06 Nov 15:54:49 WARN   [geoserver.logging] - The logging location can be set using GEOSERVER_LOG_LOCATION property
+06 Nov 15:54:55 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+06 Nov 15:54:56 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/mnt/d/MAESTRIA_SIG/WEB_SITES/curso-sig/tools/geoserver/data_dir/gwc'.
+06 Nov 15:54:56 CONFIG [config.XMLConfiguration] - Updating configuration to 2.0.0
+06 Nov 15:54:58 CONFIG [geoserver.config] - Loading catalog /mnt/d/MAESTRIA_SIG/WEB_SITES/curso-sig/tools/geoserver/data_dir
+06 Nov 15:54:58 CONFIG [config.datadir] - Catalog and configuration loader uses 8 threads out of 8 available cores.
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style burg (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style capitals (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style cite_lakes (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style dem (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style generic (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style giant_polygon (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style grass (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style green (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style line (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style poi (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style point (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style polygon (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style poly_landmarks (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style pophatch (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style population (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style rain (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style raster (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style restricted (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style simple_roads (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style simple_streams (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style tiger_roads (parent=global)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded workspace tiger
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded workspace topp
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded workspace ne
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded workspace sf
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded workspace nurc
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded namespace tiger
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded namespace ne
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded namespace nurc
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded namespace topp
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded namespace sf
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style boundary_lines (parent=ne)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded coverage store mosaic (parent=nurc)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded coverage store sfdem (parent=sf)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded data store taz_shapes (parent=topp)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded data store nyc (parent=tiger)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style coastline (parent=ne)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded coverage store img_sample2 (parent=nurc)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded data store sf (parent=sf)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style countries (parent=ne)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style countries_mapcolor9 (parent=ne)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded data store states_shapefile (parent=topp)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style disputed (parent=ne)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded style populated_places (parent=ne)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded data store NaturalEarth (parent=ne)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded feature type countries, enabled (parent=ne/NaturalEarth)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded feature type poly_landmarks, enabled (parent=tiger/nyc)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded layer poly_landmarks (parent=tiger:poly_landmarks)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded layer countries (parent=ne:countries)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded feature type tiger_roads, enabled (parent=tiger/nyc)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded feature type populated_places, enabled (parent=ne/NaturalEarth)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded layer tiger_roads (parent=tiger:tiger_roads)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded layer populated_places (parent=ne:populated_places)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded feature type poi, enabled (parent=tiger/nyc)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded layer poi (parent=tiger:poi)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded feature type disputed_areas, enabled (parent=ne/NaturalEarth)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded layer disputed_areas (parent=ne:disputed_areas)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded feature type giant_polygon, enabled (parent=tiger/nyc)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded layer giant_polygon (parent=tiger:giant_polygon)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded feature type coastlines, enabled (parent=ne/NaturalEarth)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded layer coastlines (parent=ne:coastlines)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded feature type tasmania_roads, enabled (parent=topp/taz_shapes)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded layer tasmania_roads (parent=topp:tasmania_roads)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded feature type tasmania_cities, enabled (parent=topp/taz_shapes)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded feature type boundary_lines, enabled (parent=ne/NaturalEarth)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded layer tasmania_cities (parent=topp:tasmania_cities)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded layer boundary_lines (parent=ne:boundary_lines)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded coverage store worldImageSample (parent=nurc)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded feature type tasmania_water_bodies, enabled (parent=topp/taz_shapes)
+06 Nov 15:54:58 CONFIG [config.datadir] - Loaded layer tasmania_water_bodies (parent=topp:tasmania_water_bodies)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded feature type tasmania_state_boundaries, enabled (parent=topp/taz_shapes)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer tasmania_state_boundaries (parent=topp:tasmania_state_boundaries)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded feature type states, enabled (parent=topp/states_shapefile)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer states (parent=topp:states)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded coverage Img_Sample, enabled (parent=nurc/worldImageSample)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded coverage mosaic, enabled (parent=nurc/mosaic)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer mosaic (parent=nurc:mosaic)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer Img_Sample (parent=nurc:Img_Sample)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded coverage store arcGridSample (parent=nurc)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded coverage Arc_Sample, enabled (parent=nurc/arcGridSample)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer Arc_Sample (parent=nurc:Arc_Sample)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded coverage Pk50095, enabled (parent=nurc/img_sample2)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer Pk50095 (parent=nurc:Pk50095)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded feature type streams, enabled (parent=sf/sf)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer streams (parent=sf:streams)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded feature type bugsites, enabled (parent=sf/sf)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded feature type archsites, enabled (parent=sf/sf)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded feature type restricted, enabled (parent=sf/sf)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded coverage sfdem, enabled (parent=sf/sfdem)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer archsites (parent=sf:archsites)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer bugsites (parent=sf:bugsites)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer restricted (parent=sf:restricted)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer sfdem (parent=sf:sfdem)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded feature type roads, enabled (parent=sf/sf)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer roads (parent=sf:roads)
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer group world
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer group tasmania
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer group spearfish
+06 Nov 15:54:59 CONFIG [config.datadir] - Loaded layer group tiger-ny
+06 Nov 15:54:59 INFO   [geoserver.config] - Read Catalog in 1.205 s : workspaces: 5, namespaces: 5, styles: 27, stores: 10, resources: 24, layers: 24, layer groups: 4.
+06 Nov 15:54:59 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+06 Nov 15:54:59 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+06 Nov 15:54:59 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+06 Nov 15:54:59 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+06 Nov 15:54:59 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+06 Nov 15:54:59 CONFIG [gwc.layer] - Loaded 28 tile layers in 112.1 ms
+06 Nov 15:54:59 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+06 Nov 15:54:59 CONFIG [storage.DefaultStorageFinder] - Found system environment variable GEOSERVER_DATA_DIR set to /mnt/d/MAESTRIA_SIG/WEB_SITES/curso-sig/tools/geoserver/data_dir, using it as the default prefix.
+06 Nov 15:54:59 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+06 Nov 15:54:59 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+06 Nov 15:54:59 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+06 Nov 15:54:59 WARN   [codec.ImageEncoderImpl] - Preferred SPI not found, using the first available one: com.sun.imageio.plugins.tiff.TIFFImageWriterSpi
+06 Nov 15:55:00 CONFIG [config.datadir] - Loading GeoServer config...
+06 Nov 15:55:00 CONFIG [config.datadir] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+06 Nov 15:55:00 CONFIG [config.datadir] - Loaded service 'wcs', enabled
+06 Nov 15:55:00 CONFIG [config.datadir] - Loaded service 'wfs', enabled
+06 Nov 15:55:00 CONFIG [config.datadir] - Loaded service 'wms', enabled
+06 Nov 15:55:00 CONFIG [config.datadir] - Catalog and configuration loader uses 8 threads out of 8 available cores.
+06 Nov 15:55:00 CONFIG [config.datadir] - Loading workspace services and settings...
+06 Nov 15:55:00 CONFIG [config.datadir] - Loaded service 'WMTSInfoImpl-1c443fee:182c0f3f209:-7f98', enabled
+06 Nov 15:55:00 CONFIG [config.datadir] - Loaded service 'WCSInfoImpl-1c443fee:182c0f3f209:-7f96', enabled
+06 Nov 15:55:00 CONFIG [config.datadir] - Loaded service 'WFSInfoImpl-1c443fee:182c0f3f209:-7f97', enabled
+06 Nov 15:55:00 CONFIG [config.datadir] - Loaded service 'WMSInfoImpl-1c443fee:182c0f3f209:-7f99', enabled
+06 Nov 15:55:00 CONFIG [config.datadir] - GeoServer config (settings and services) loaded in 214.2 ms
+06 Nov 15:55:00 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+06 Nov 15:55:00 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/mnt/d/MAESTRIA_SIG/WEB_SITES/curso-sig/tools/geoserver/data_dir/gwc'.
+06 Nov 15:55:00 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/mnt/d/MAESTRIA_SIG/WEB_SITES/curso-sig/tools/geoserver/data_dir/gwc'.
+06 Nov 15:55:00 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+06 Nov 15:55:03 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+06 Nov 15:55:03 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+06 Nov 15:55:04 INFO   [rest.security] - Authentication provider allow-list active from defaults: 12 entries (12 exact, 0 prefix)
+06 Nov 15:55:04 INFO   [rest.security] - Authentication provider allow-list entries: [org.geoserver.security.auth.UsernamePasswordAuthenticationProvider, org.geoserver.geoserver.authentication.auth.GeoFenceAuthenticationProviderConfig, org.geoserver.security.config.UsernamePasswordAuthenticationProviderConfig, org.geoserver.security.auth.web.WebAuthenticationConfig, org.geoserver.security.WebServiceBodyResponseSecurityProviderConfig, org.geoserver.security.ldap.LDAPSecurityServiceConfig, org.geoserver.security.jdbc.config.JDBCConnectAuthProviderConfig, org.geoserver.security.jdbc.JDBCConnectAuthProvider, org.geoserver.geoserver.authentication.auth.GeoFenceAuthenticationProvider, org.geoserver.security.WebServiceBodyResponseSecurityProvider, org.geoserver.security.auth.web.WebServiceAuthenticationProvider, org.geoserver.security.ldap.LDAPAuthenticationProvider]
+06 Nov 15:55:08 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+06 Nov 15:55:08 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+06 Nov 15:55:08 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+06 Nov 15:55:08 CONFIG [diskquota.DiskQuotaMonitor] - 28 layers attached to global quota 500.0 MB
+06 Nov 15:55:08 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+06 Nov 15:55:08 CONFIG [geoserver.security] - End security migration check, current version is 2.6 (previous was 2.6)
+06 Nov 15:55:09 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+06 Nov 15:55:09 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
