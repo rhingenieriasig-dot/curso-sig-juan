@@ -1,0 +1,14 @@
+# Ficha de datos
+- **Nombre del conjunto:** Hospitales de Boyacá
+- **Fuente / entidad:** IDE Boyacá / Secretaría de Salud de Boyacá
+- **URL del servicio o descarga:** Repositorio interno del curso (archivo `hospitales_boyaca.geojson`)
+- **Tipo:** descarga (GeoJSON)
+- **Formato:** GeoJSON
+- **Geometría:** punto
+- **CRS (EPSG):** EPSG:4326 (WGS 84)
+- **Número de registros / resolución:** 464 hospitales
+- **Vigencia / fecha:** 2024
+- **Licencia y atribución:** Datos abiertos bajo directrices de la Gobernación de Boyacá / IDE Boyacá
+- **Fecha de verificación:** 2026-11-07
+- **Estado:** descarga
+- **Nota / para qué sirve en mi proyecto:** Permite visualizar la ubicación espacial de la red prestadora de servicios de salud en el departamento para el mapa web interactivo y análisis de accesibilidad.
